@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #fafafb;
+    color: #1e293b;
+    line-height: 1.5;
+}
+
+/* navbar */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9eef2;
+    padding: 0.75rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: -0.01em;
+    color: #0a1e2f;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #59748f;
+    margin-left: 2rem;
+    font-size: 0.95rem;
+    font-weight: 450;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: #0f2b3f;
+}
+
+/* hero */
+.hero {
+    max-width: 1200px;
+    margin: 3rem auto 2rem;
+    padding: 0 2rem;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #eaeef3;
+    color: #2c4a6e;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.3rem 0.9rem;
+    border-radius: 20px;
+    letter-spacing: 0.3px;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #0c1f30;
+    margin-bottom: 1.5rem;
+}
+
+.text-accent {
+    color: #52718c; /* subtle steel blue, tidak mencolok */
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    color: #5c6f87;
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1f3449;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #7a8b9f;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* overview card */
+.overview {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.03);
+    border: 1px solid #f0f3f7;
+    transition: transform 0.1s ease;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin-bottom: 1rem;
+    color: #152c3f;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.icon {
+    color: #627b96;
+    font-size: 1.4rem;
+}
+
+.text-secondary {
+    color: #556b82;
+    margin-bottom: 1.5rem;
+    max-width: 80%;
+}
+
+.pill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.pill {
+    background-color: #edf2f8;
+    color: #2d4a6b;
+    padding: 0.3rem 1rem;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid #d9e2ec;
+}
+
+/* team section */
+.team-section, .tasks {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 550;
+    color: #14293c;
+    margin-bottom: 2rem;
+    letter-spacing: -0.02em;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+}
+
+.member-card {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 1.8rem 1.2rem 1.2rem 1.2rem;
+    text-align: center;
+    border: 1px solid #edf2f7;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    transition: all 0.2s;
+}
+
+.member-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 30px -10px rgba(28, 52, 84, 0.12);
+    border-color: #d4e0eb;
+}
+
+.avatar {
+    width: 72px;
+    height: 72px;
+    background: linear-gradient(145deg, #e3eaf1, #d2dee9);
+    color: #1d3f60;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    border: 2px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.member-card h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    color: #172c40;
+}
+
+.role {
+    color: #69839e;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+.member-footer {
+    border-top: 1px solid #eef3f8;
+    padding-top: 0.8rem;
+    margin-top: 0.4rem;
+}
+
+.commit-badge {
+    background-color: #eef3f9;
+    color: #2c4e72;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.2rem 0.8rem;
+    border-radius: 30px;
+}
+
+/* task list */
+.task-list {
+    background: white;
+    border-radius: 24px;
+    border: 1px solid #ecf2f9;
+    overflow: hidden;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem 2rem;
+    border-bottom: 1px solid #f0f5fc;
+}
+
+.task-item:last-child {
+    border-bottom: none;
+}
+
+.task-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.task-info i {
+    font-size: 1.2rem;
+}
+
+.completed {
+    color: #6f8fad; /* tidak pakai hijau terang, tetap kalem */
+}
+
+.pending {
+    color: #a7b9cc;
+}
+
+.task-name {
+    font-weight: 480;
+    color: #1f3c58;
+}
+
+.task-assignee {
+    background-color: #eef4fa;
+    padding: 0.25rem 1rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #2b4a6b;
+}
+
+/* footer */
+footer {
+    background-color: #f4f8fd;
+    border-top: 1px solid #e3eef9;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: #4b627c;
+    font-size: 0.9rem;
+}
+
+.git-commands {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.git-commands code {
+    background-color: #e9f0f8;
+    padding: 0.3rem 0.9rem;
+    border-radius: 40px;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.75rem;
+    color: #234a6b;
+    border: 1px solid #d2e0ed;
+}
+
+/* responsive */
+@media (max-width: 700px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .hero-stats {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
