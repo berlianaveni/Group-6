@@ -13,4 +13,5 @@ This project is created to practice Git and GitHub collaboration.
 - Berlian : Login Feature
 - Nabila : UI Design
 - Herman : Database
-- Hasnul : Documentation
+- Hasnul : Backend
+  
