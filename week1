@@ -1,0 +1,43 @@
+# WEEK 1 SPRINT REPORT
+
+## Sprint Goal
+To design the system concept and prepare initial development planning for the K3 PPE Monitoring System.
+
+---
+
+## Progress Completed
+- Defined system objectives and problem statement
+- Created product backlog
+- Selected AI model (YOLO - Ultralytics)
+- Designed system workflow (CCTV → AI → Notification)
+- Created UI dashboard mockup
+
+---
+
+## Task Distribution
+- Herman: System architecture & database design
+- Hasnul: Backend research & AI integration
+- Nabila: UI/UX design (dashboard)
+- Berliana: Testing planning & validation
+
+---
+
+## Challenges
+- Limited PPE dataset availability
+- Uncertainty in AI model selection
+- No real CCTV data
+
+---
+
+## Solutions
+- Use Roboflow for dataset preparation
+- Choose YOLO for efficient detection
+- Use sample images/videos for simulation
+
+---
+
+## Plan for Week 2
+- Implement PPE detection model
+- Integrate backend and database
+- Develop notification system
+- Improve UI dashboard
