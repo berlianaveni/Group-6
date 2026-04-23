@@ -1,30 +1,42 @@
-# WEEK 1 SPRINT REPORT
+# Sprint Week 1
 
 ## Sprint Goal
-To design and prepare the PPE monitoring system.
+Develop the foundation of the K3-Secure AI monitoring system and prepare AI detection integration.
+
+---
 
 ## Progress Completed
-- Created product backlog
-- Assigned roles
-- Created GitHub repo
-- Designed system flow
-- Created issues
+- Created GitHub repository
+- Assigned Scrum roles
+- Created product backlog list
+- Built initial dashboard UI
+- Set up Flask backend
+- Connected webcam/camera stream
+- Integrated basic YOLOv8 person detection
+
+---
 
 ## Task Distribution
-- Herman: Planning & database
-- Hasnul: AI research
-- Nabila: UI design
-- Berliana: Scrum tracking
 
-## Challenges
-- Limited dataset
-- No real CCTV data
+| Member | Task |
+|---|---|
+| Berlian | Login Feature |
+| Nabila | UI Design & Dashboard |
+| Herman | Database Setup |
+| Hasnul | Backend & AI Integration |
 
-## Solutions
-- Use Roboflow dataset
-- Use sample data
+---
 
-## Plan for Week 2
-- Start AI detection
-- Improve UI
-- Add notification
+## ⚠️ Challenges
+- Python dependency conflicts
+- Camera initialization issues
+- Dashboard layout bugs
+
+---
+
+##  Solutions
+- Reinstalled compatible Python libraries
+- Fixed camera configuration
+- Improved HTML/CSS layout structure
+
+---
