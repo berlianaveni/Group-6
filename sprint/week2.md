@@ -21,8 +21,8 @@ Implement real-time PPE monitoring and compliance reporting system.
 
 | Member | Task |
 |---|---|
-| Berlian | Login Feature Integration |
-| Nabila | Dashboard UI & Notification Layout |
+| Berlian | Berlian — Event Log & Notification Layout |
+| Nabila | Dashboard UI & Compliance Report |
 | Herman | Database Logging |
 | Hasnul | Backend & AI Detection Integration |
 
