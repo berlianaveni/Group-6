@@ -20,10 +20,10 @@ Develop the foundation of the K3-Secure AI monitoring system and prepare AI dete
 
 | Member | Task |
 |---|---|
-| Berlian | Login Feature |
-| Nabila | UI Design & Dashboard |
-| Herman | Database Setup |
-| Hasnul | Backend & AI Integration |
+| Berlian | Event Log & Notification System |
+| Nabila | Compliance Report & System testing |
+| Herman | Dashboard UI Development |
+| Hasnul | Backend & YOLOv8 AI Integration |
 
 ---
 
