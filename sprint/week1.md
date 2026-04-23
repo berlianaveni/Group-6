@@ -3,7 +3,7 @@
 ## Sprint Goal
 To design and prepare the PPE monitoring system.
 
-## Progress Completed (75%)
+## Progress Completed
 - Created product backlog
 - Assigned roles
 - Created GitHub repo
