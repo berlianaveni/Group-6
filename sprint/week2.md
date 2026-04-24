@@ -28,7 +28,7 @@ Implement real-time PPE monitoring and compliance reporting system.
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 - NumPy dependency conflicts
 - Event log update issues
 - Dashboard layout conflicts
@@ -36,7 +36,7 @@ Implement real-time PPE monitoring and compliance reporting system.
 
 ---
 
-## 💡 Solutions
+## Solutions
 - Installed compatible dependency versions
 - Fixed HTML structure issues
 - Adjusted dashboard panel layout
@@ -44,7 +44,7 @@ Implement real-time PPE monitoring and compliance reporting system.
 
 ---
 
-## 📌 Plan for Next Sprint
+## Plan for Next Sprint
 - Improve Personnel module
 - Improve Config settings
 - Improve PPE detection accuracy
