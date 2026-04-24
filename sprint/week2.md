@@ -7,7 +7,6 @@ Implement real-time PPE monitoring and compliance reporting system.
 
 ## Progress Completed
 - Implemented PPE compliance checking
-- Added live violation notifications
 - Added event log system
 - Added Project Roadmap module
 - Added QA monitoring module
